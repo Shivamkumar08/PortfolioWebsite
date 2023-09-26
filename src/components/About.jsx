@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className=" h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white"
+      className=" h-screen h-auto he w-full bg-gradient-to-b from-black to-gray-800 text-white" style={{ height: 'auto' }}
     >
       <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4">
         <div className="pb-8">
@@ -15,7 +15,7 @@ const About = () => {
             Hi I am Shivam , I had done BCA,  I am a Frontend Developer 🚀, I am Proficient in React JS, React Native, React Native Animated,  Redux, NextJs, Android Studio, Javascipt, Firebase, Material Ui, Material Ui-Paper, Formik, Yup, Git,Git Hub, VS Code, Postman, Netlify, HTMl, CSS 🚀🚀 .Coming to my past experience- 👩‍💻 In my last Organisation i have worked on both React and React Native Projects. Other than this Playing Cricket 🏏 and watching Cricket 📺 is my hobby.
           </p>
           <br />
-          <p className="text-xl leading-10">
+          <p className="text-xl leading-10 mb-50">
             As I continue on this exhilarating journey, I am eager to tackle new
             challenges, embrace emerging technologies, and contribute to the
             ever-evolving landscape of web and mobile development. With an insatiable

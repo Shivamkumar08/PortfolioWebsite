@@ -117,8 +117,8 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="h-screen w-full bg-gradient-to-b to-gray-800 from-black "
-      style={{ paddingTop: '100px', paddingBottom: '100px' }}
+      className="h-screen h-auto w-full bg-gradient-to-b to-gray-800 from-black "
+      style={{ height: 'auto' }}
     >
       <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center text-white pt-40">
         <div className="mx-6">
@@ -133,6 +133,7 @@ const Experience = () => {
             <div
               key={id}
               className={`rounded-lg py-2 shadow-md duration-500 hover:scale-105 ${style}`}
+              style={{ padding: '40px' }}
             >
               <img src={src} alt="" className="mx-auto w-20" />
               <p className="mt-4">{title}</p>

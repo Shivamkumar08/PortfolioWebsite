@@ -58,11 +58,12 @@ const Portfolio = () => {
   ];
 
   return (
+
     <div
       name="portfolio"
-      className=" w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen"
+      className=" h-auto w-full bg-gradient-to-b from-gray-800 to-black text-white md:h-screen" style={{ height: 'auto' }}
     >
-      <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4">
+      <div className="mx-auto  flex h-full w-full max-w-screen-lg flex-col justify-center p-4">
         <div className="pb-8">
           <p className="inline border-b-4 border-gray-500 text-4xl font-bold">
             Portfolio
